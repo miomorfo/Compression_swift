@@ -6,8 +6,12 @@ Este algoritmo comprime una secuencia de datos repitiendo los valores idénticos
 
 *Ejemplo*:
 
-`AAAABBBCCDAABBBKKKKKKJJDFFEEEAAAAAKKKLLOOOOO`
-`4A3B2C1D2A3B6K2J1D2F3E5A3K2L5O`
+| state  | value  |
+|:----------|:----------|
+| original    | AAAABBBCCDAABBBKKKKKKJJDFFEEEAAAAAKKKLLOOOOO    |
+| compressed    | 4A3B2C1D2A3B6K2J1D2F3E5A3K2L5O    |
+
+
 
 ```swift
 func runLengthEncode(_ input: String) -> String {
